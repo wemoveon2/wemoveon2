@@ -21,6 +21,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           # show changed lines
-          # plugin_lines: yes
-          # plugin_lines_delay: 30
+          plugin_lines: yes
+          plugin_lines_delay: 30
+          # languages
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 4
 
